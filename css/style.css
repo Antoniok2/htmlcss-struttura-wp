@@ -7,16 +7,34 @@
 /* qui trovo l'intestazione */
 .intestazione{
     height: 100px;
+    margin-top: 20px;
    
         /* regole debug */
     background-color: palevioletred;
 }
 
 .contenitore1{
-    height: 500px;
+    height: 200px;
     margin: 20px 0;
     
     /* regole debug */
     background-color: yellow;
+}
 
+.intestazione, .contenitore1, .contenitore2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contenitore2{
+    height: 300px;
+
+    /* regole di debug */
+    background-color: blue;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
 }
