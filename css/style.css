@@ -4,31 +4,32 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 /* qui trovo l'intestazione */
 .intestazione{
-    height: 100px;
-    margin-top: 20px;
+    height: 150px;
+    margin-bottom: 10px;
+    
    
         /* regole debug */
     background-color: palevioletred;
 }
 
 .contenitore1{
-    height: 200px;
-    margin: 20px 0;
+    height: 300px;
     
     /* regole debug */
     background-color: yellow;
+    margin-bottom: 10px;
 }
 
-.intestazione, .contenitore1, .contenitore2{
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 .contenitore2{
     height: 300px;
-
     /* regole di debug */
     background-color: blue;
 }
@@ -37,4 +38,44 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.leadership{
+    height: 80px;
+    width: 100%;
+
+    /* regole debug */
+    background-color: cadetblue;
+}
+
+.testosx{
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    
+    /* regole debug */
+    background-color: cadetblue;
+}
+
+.testodx{
+    height: 200px;
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+
+
+    /* regole debug */
+    background-color: cadetblue;
+}
+
+.testocentrale{
+    height: 200px;
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+    
+
+    /* regole debug */
+    background-color: cadetblue;
 }
