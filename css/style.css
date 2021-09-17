@@ -5,13 +5,13 @@
 }
 
     /* qui trovo regole generali */
-.container {
+#container {
     width: 80%;
     margin: 0 auto;
 }
 
 /* qui trovo l'intestazione */
-.intestazione{
+header{
     height: 150px;
     margin-bottom: 10px;
             /* regole debug */
@@ -28,7 +28,7 @@
 
     /* qui trovo il secondo contenitore */
 .contenitore2{
-    height: 300px;
+    
     /* regole di debug */
     background-color: blue;
 }
@@ -37,7 +37,7 @@
     content: "";
     display: table;
     clear: both;
-}
+}  
 
 .leadership{
     height: 80px;
